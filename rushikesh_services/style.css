@@ -1,0 +1,18 @@
+.all {
+    background-color: rgba(10, 70, 75, 0.5);
+  }
+  .navbar-nav li a{
+    color: rgb(12, 11, 11) !important;
+  }
+  .dropdown-menu li a{
+    color: #000 !important;
+  }
+
+
+
+  @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
